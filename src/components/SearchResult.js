@@ -20,6 +20,7 @@ const SearchResults = () => {
   }
   useEffect(() => {
    fetchBuses();
+   // eslint-disable-next-line
   },[from , to]);
 
   function sortResults(criteria){
