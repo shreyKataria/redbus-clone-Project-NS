@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Montserrat,sans-serif;
 }
 
 .App-logo {
@@ -36,3 +37,14 @@
     transform: rotate(360deg);
   }
 }
+ 
+
+/* .Homepage{
+  background-image: url(https://hypertrack.com/blog/content/images/size/w1140/2019/11/redbus-blog-2.png);
+ display: flex;
+ width:100%;
+ background-size: cover;
+ height: 100vh;
+ margin: 20px 20px;
+
+} */
