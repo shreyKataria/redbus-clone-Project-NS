@@ -13,8 +13,8 @@ const Journey = ({ Component }) => {
         navigate("/");
       }else{
         navigate("/results")
-      }
-  }, []);
+      }// eslint-disable-next-line
+  },[]);
 
   return (
     <div>
