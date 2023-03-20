@@ -6,8 +6,7 @@ function Homepage() {
   return (
     <div>
         
-        <Image src='/RedbusImage.png'
-        width={1366} height={450}/>
+        <Image className='w-100' src='/RedbusImage.png' height={450}/>
     </div> 
  )
   
