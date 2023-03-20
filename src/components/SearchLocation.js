@@ -33,7 +33,7 @@ function SearchLocation() {
       <div className="m-3">
         <InputGroup className="flex align-items-center">
           <Form.Control className="rounded-0"
-            placeholder="From"
+            placeholder="Source"
             aria-label="Text input with dropdown button"
             value={from}
             onChange={(e) => {
@@ -42,7 +42,7 @@ function SearchLocation() {
           />
           <BsArrowLeftRight onClick={interchangeFromTo} className="mx-3" />
           <Form.Control 
-            placeholder="To"
+            placeholder="Destination"
             value={to}
             aria-label="Text input with dropdown button"
             onChange={(e) => {
